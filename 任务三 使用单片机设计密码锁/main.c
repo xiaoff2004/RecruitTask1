@@ -37,8 +37,10 @@ void main ()
 					Buzzer_Time2(100);
 					Delay(20);
 					Buzzer_Time2(100);
-					Delay(20);
+					Delay(500);
 					keynum=0;
+					LCD_Init();
+					LCD_ShowString(1,1,"Password:");
 					LCD_ShowNum(2,1,keynum,4);
 				}
 			 else 			//√‹¬Î¥ÌŒÛ£¨œ‘ æerr£¨≤¢÷ÿ÷√√‹¬Î		
